@@ -8,8 +8,8 @@
 
 
 ### Screenshots
-![Diseño escritorio](screenshot\intro-component__desktop.png)
-![Diseño móvil](screenshot\intro_component__mobile.png)
+![Diseño escritorio](screenshots/intro-component__desktop.png)
+![Diseño móvil](screenshots/intro_component__mobile.png)
 
 
 ## Built with
