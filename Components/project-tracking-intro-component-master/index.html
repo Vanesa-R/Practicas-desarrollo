@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Project tracking intro component</title>
+</head>
+<body>
+  <header class="header">
+    <img src="images/logo.svg" alt="Logotipo" class="header__logo">
+    <div class="menu__mobile__icon">
+      <img src="images/icon-hamburger.svg" alt="Menú principal" class="menu__btn --open">
+      <img src="images/icon-close.svg" alt="" class="menu__close --close">
+    </div>
+    <nav class="menu__desktop nav">
+      <ul class="menu__list__items">
+        <li class="menu__item"><a href="#">Product</a></li>
+        <li class="menu__item"><a href="#">Features</a></li>
+        <li class="menu__item"><a href="#">Princing</a></li>
+        <li class="menu__item"><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="menu__mobile">
+    <ul class="menu__list__items">
+      <li class="menu__item"><a href="#">Product</a></li>
+      <li class="menu__item"><a href="#">Features</a></li>
+      <li class="menu__item"><a href="#">Princing</a></li>
+      <li class="menu__item"><a href="#">Login</a></li>
+    </ul>
+  </div>
+
+  <main class="main">
+    <section class="main__dashboard">
+      <div class="info__dashboard">
+        <span class="new --upper">New</span>
+        <h2 class="dashboard__subtitle --light --upper">Monograph Dashboard</h2>
+      </div>
+      <h1 class="dashboard__title --dark --upper">Powerful insights into your team</h1>
+      <p class="dashboard__paragraph --light">Project planning and time tracking for agile teams</p>
+      <div class="demo">
+        <input type="button" value="Schedule a demo" class="btn__demo --upper">
+        <span class="btn__span --light --upper">to see a live preview</span>
+      </div>
+    </section>
+    <div class="main__image">
+      <img src="images/illustration-devices.svg" alt="Imagen principal" class="ilustracion">
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="attribution --light">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> |
+      Coded by Vanesa Rodríguez</a></p>
+  </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
