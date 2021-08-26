@@ -6,4 +6,4 @@
 
 ## [Project Tracking Intro](https://github.com/Vanesa-R/Porfolio/tree/master/Components/project-tracking-intro-component-master)
 
-![Screenshot project tracking](Components/project-tracking-intro-component-master/screenshots/Screenshot%202021-06-26%20at%2023-29-37%20Project%20tracking%20intro%20component.png)
+![Screenshot project tracking](project-tracking-intro-component-master/screenshots/intro-component__desktop.png)
