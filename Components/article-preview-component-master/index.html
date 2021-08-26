@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title>Article Preview Component</title>
+</head>
+<body>
+  <main class="main">
+    <article class="article">
+      <div class="article__header">
+        <img src="images/drawers.jpg" class="image__header" alt="Imagen con una mesa y decoración">
+      </div>
+      <div class="article__body">
+        <h2 class="article__title">Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home</h2>
+          <p class="article__preview__paragrahp">Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete.</p>
+      </div>
+      <div class="article__footer">
+        <img src="images/avatar-michelle.jpg" class="image__author" alt="Avatar de Michelle">
+        <div class="article__publication">
+          <p class="article__author text--bold">Michelle Appleton</p>
+          <time class="article__date text--grayish">28 Jun 2020</time>
+        </div>
+        <div class="article__share">
+          <a href="" class="share" id="share__btn"><img class="image__share" src="images/icon-share.svg" alt="Compartir artículo"></a>
+        </div>
+      </div>
+      <tooltip class="tooltip__share">
+        <p class="share__text">Share</p>
+        <div class="share__icons">
+          <a href="#" class="icon"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="#" class="icon"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#" class="icon"><i class="fab fa-pinterest fa-2x"></i></a>
+        </div>
+      </tooltip>   
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="attribution">
+      <p class="attibution__paragraph">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by Vanesa Rodríguez</p>
+    </div>
+  </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
