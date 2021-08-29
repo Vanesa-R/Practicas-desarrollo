@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contador</title>
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="counter__info">
+                <div class="type__info">
+                        <p class="title" id="word">Palabras</p>
+                        <p class="counter" id="counter__words">0</p>
+                </div>
+                <div class="type__info">
+                        <p class="title" id="character">Caracteres</p>
+                        <p class="type">(Con espacios)</p>
+                        <p class="counter" id="counter__characters">0</p>
+                </div>
+                <div class="type__info">
+                    <p class="title" id="characterNS">Caracteres</p>
+                    <p class="type">(Sin espacios)</p>
+                    <p class="counter" id="counter__characters__ns">0</p>
+                </div>
+                <div class="type__info">
+                    <p class="title" id="paragraph">Párrafos</p>
+                    <p class="counter" id="counter__paragraphs">0</p>
+                </div>
+                <div class="type__info">
+                    <p class="title" id="sentence">Oraciones</p>
+                    <p class="counter" id="counter__sentences">0</p>
+                </div>
+                <input class="reset" type="button" value="Borrar" disabled>
+            </div>
+            <textarea class="textarea" name="textarea" placeholder="Escribe o copia tu texto aquí"></textarea>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
