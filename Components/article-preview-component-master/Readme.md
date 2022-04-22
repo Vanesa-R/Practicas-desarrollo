@@ -22,9 +22,6 @@
 - Mobile-first workflow
 - JavaScript
 
-**Wanna look how it works?** 
-[Check it out!](https://vanesa-r.github.io/article-preview-component/) :point_left:
-
 
 
 ## Author
