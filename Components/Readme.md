@@ -7,3 +7,8 @@
 ## [Project Tracking Intro](https://github.com/Vanesa-R/Porfolio/tree/master/Components/project-tracking-intro-component-master)
 
 ![Screenshot project tracking](project-tracking-intro-component-master/screenshots/intro-component__desktop.png)
+
+
+## [Advice Generator App](https://github.com/Vanesa-R/Practicas-desarrollo/tree/master/Components/advice-generator-app-main)
+
+![Screenshot project tracking](https://github.com/Vanesa-R/Practicas-desarrollo/blob/master/Components/advice-generator-app-main/screenshots/desktop-screenshot.png)
